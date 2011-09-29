@@ -1,0 +1,8 @@
+C:\Users\Bill\Websites\Mild.MembershipProvider\Mild.MembershipProvider\bin\Debug\Mild.MembershipProvider.dll
+C:\Users\Bill\Websites\Mild.MembershipProvider\Mild.MembershipProvider\bin\Debug\Mild.MembershipProvider.pdb
+C:\Users\Bill\Websites\Mild.MembershipProvider\Mild.MembershipProvider\obj\Debug\ResolveAssemblyReference.cache
+C:\Users\Bill\Websites\Mild.MembershipProvider\Mild.MembershipProvider\obj\Debug\Mild.MembershipProvider.dll
+C:\Users\Bill\Websites\Mild.MembershipProvider\Mild.MembershipProvider\obj\Debug\Mild.MembershipProvider.pdb
+C:\Users\Bill\Websites\Mild.MembershipProvider\Mild.MembershipProvider\bin\Debug\Ninject.dll
+C:\Users\Bill\Websites\Mild.MembershipProvider\Mild.MembershipProvider\bin\Debug\Ninject.pdb
+C:\Users\Bill\Websites\Mild.MembershipProvider\Mild.MembershipProvider\bin\Debug\Ninject.xml

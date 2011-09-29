@@ -1,0 +1,311 @@
+<Configuration>
+  <SettingsComponent>
+    <string />
+    <integer />
+    <boolean>
+      <setting name="SolutionAnalysisEnabled">True</setting>
+    </boolean>
+  </SettingsComponent>
+  <CompletionStatisticsManager>
+    <ItemStatistics item="Default">
+      <Item value="MembershipProvider" priority="4" />
+      <Item value="Membership`0" priority="2" />
+      <Item value="const" priority="3" />
+      <Item value="string" priority="14" />
+      <Item value="Mild" priority="0" />
+      <Item value="new" priority="13" />
+      <Item value="SqlMembershipProvider`0" priority="2" />
+      <Item value="SqlMembershipProvider" priority="0" />
+      <Item value="TestConfiguration`0" priority="0" />
+      <Item value="using" priority="0" />
+      <Item value="Ninject" priority="1" />
+      <Item value="public" priority="13" />
+      <Item value="SchemaVersion`0" priority="3" />
+      <Item value="override" priority="0" />
+      <Item value="SchemaVersion" priority="0" />
+      <Item value="this" priority="4" />
+      <Item value="_sqlConnectionString" priority="0" />
+      <Item value="void" priority="0" />
+      <Item value="IDataProvidable`0" priority="12" />
+      <Item value="int" priority="16" />
+      <Item value="ProviderBase`0" priority="2" />
+      <Item value="SqlConnection`0" priority="0" />
+      <Item value="return" priority="8" />
+      <Item value="schemaVersionCheck" priority="0" />
+      <Item value="private" priority="4" />
+      <Item value="readonly" priority="0" />
+      <Item value="_dataSource" priority="5" />
+      <Item value="dataSource" priority="2" />
+      <Item value="_schemaVersionCheck" priority="0" />
+      <Item value="_providerBase" priority="0" />
+      <Item value="_connection" priority="0" />
+      <Item value="Bind`0" priority="1" />
+      <Item value="var" priority="7" />
+      <Item value="StandardKernel`0" priority="1" />
+      <Item value="SqlMembershipProviderModule`0" priority="1" />
+      <Item value="kernel" priority="2" />
+      <Item value="SqlRoleProvider`0" priority="1" />
+      <Item value="foreach" priority="0" />
+      <Item value="in" priority="0" />
+      <Item value="RealData`0" priority="0" />
+      <Item value="Guid`0" priority="6" />
+      <Item value="CreateUserViewModel" priority="0" />
+      <Item value="Status" priority="1" />
+      <Item value="status" priority="1" />
+      <Item value="CreateUserViewModel`0" priority="0" />
+      <Item value="createUserViewModel" priority="0" />
+      <Item value="DateTime`0" priority="0" />
+      <Item value="AppDomainSetup`0" priority="1" />
+      <Item value="CreateUser`0" priority="0" />
+      <Item value="Date" priority="0" />
+      <Item value="results" priority="0" />
+      <Item value="CommandTimeout" priority="6" />
+      <Item value="ApplicationName" priority="3" />
+      <Item value="RequiresUniqueEmail" priority="2" />
+      <Item value="PasswordFormat" priority="0" />
+      <Item value="_commandTimeout" priority="0" />
+      <Item value="value" priority="0" />
+      <Item value="commandTimeout" priority="0" />
+      <Item value="SqlConnectionHolder`0" priority="1" />
+      <Item value="Holder" priority="2" />
+      <Item value="holder" priority="5" />
+      <Item value="provider" priority="1" />
+      <Item value="Connection" priority="0" />
+      <Item value="Provider" priority="0" />
+      <Item value="applicationName" priority="0" />
+      <Item value="try" priority="1" />
+      <Item value="finally" priority="0" />
+      <Item value="null" priority="3" />
+      <Item value="object" priority="0" />
+      <Item value="IDisposable`0" priority="0" />
+      <Item value="if" priority="10" />
+      <Item value="byte" priority="0" />
+      <Item value="bool" priority="6" />
+      <Item value="MaxInvalidPasswordAttempts" priority="3" />
+      <Item value="PasswordAttemptWindow" priority="2" />
+      <Item value="RequiresQuestionAndAnswer" priority="1" />
+      <Item value="ThrowExceptionFromStatus`0" priority="0" />
+      <Item value="IRoleDataProvidable`0" priority="0" />
+      <Item value="RealRoleData`0" priority="0" />
+      <Item value="checkForNull" priority="6" />
+      <Item value="maxSize" priority="0" />
+      <Item value="checkIfEmpty" priority="3" />
+      <Item value="internal" priority="0" />
+      <Item value="static" priority="0" />
+      <Item value="ref" priority="1" />
+      <Item value="checkForCommas" priority="0" />
+      <Item value="Hashed" priority="1" />
+      <Item value="MembershipPasswordFormat`0" priority="17" />
+      <Item value="Clear" priority="0" />
+      <Item value="passwordFormat" priority="1" />
+      <Item value="_passwordFormat" priority="0" />
+      <Item value="Success" priority="0" />
+      <Item value="MembershipUser" priority="0" />
+      <Item value="Email" priority="0" />
+      <Item value="ProviderName" priority="0" />
+      <Item value="Name" priority="0" />
+      <Item value="false" priority="2" />
+      <Item value="ProviderDataContext" priority="0" />
+      <Item value="db" priority="10" />
+      <Item value="p" priority="8" />
+      <Item value="feature" priority="0" />
+      <Item value="exists" priority="0" />
+      <Item value="ApplicationId`0" priority="0" />
+      <Item value="currentTimeUTC" priority="0" />
+      <Item value="username" priority="3" />
+      <Item value="applicationId" priority="3" />
+      <Item value="newUserId" priority="19" />
+      <Item value="aspnetUser" priority="2" />
+      <Item value="createDate" priority="2" />
+      <Item value="newUserCreated" priority="1" />
+      <Item value="true" priority="0" />
+      <Item value="else" priority="2" />
+      <Item value="userId" priority="4" />
+      <Item value="ValueType`0" priority="0" />
+      <Item value="errorCode" priority="3" />
+      <Item value="membershipExists" priority="2" />
+      <Item value="requiresUniqueEmail" priority="0" />
+      <Item value="email" priority="2" />
+      <Item value="user" priority="0" />
+      <Item value="aspnet_Membership`0" priority="0" />
+      <Item value="aspnetMembership" priority="0" />
+      <Item value="membership" priority="0" />
+      <Item value="aspnet_Membership" priority="0" />
+      <Item value="ApplicationId" priority="1" />
+      <Item value="UserId" priority="1" />
+      <Item value="Password" priority="0" />
+      <Item value="salt" priority="0" />
+      <Item value="passwordQuestion" priority="1" />
+      <Item value="isApproved" priority="0" />
+      <Item value="IsLockedOut" priority="0" />
+      <Item value="CreateDate" priority="0" />
+      <Item value="LastLoginDate" priority="0" />
+      <Item value="LastPasswordChangedDate" priority="0" />
+      <Item value="LastLockoutDate" priority="0" />
+      <Item value="FailedPasswordAttemptCount" priority="0" />
+      <Item value="FailedPasswordAttemptWindowStart" priority="0" />
+      <Item value="FailedPasswordAnswerAttemptCount" priority="0" />
+      <Item value="FailedPasswordAnswerAttemptWindowStart" priority="0" />
+      <Item value="DateTime" priority="2" />
+      <Item value="returnValue" priority="0" />
+      <Item value="aspnet_User`0" priority="0" />
+      <Item value="aspnet_User" priority="0" />
+      <Item value="UserName" priority="0" />
+      <Item value="LoweredUserName" priority="0" />
+      <Item value="IsAnonymous" priority="0" />
+      <Item value="LastActivityDate" priority="0" />
+      <Item value="throw" priority="0" />
+      <Item value="Exception" priority="0" />
+      <Item value="ProviderException" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:@System.Web.Security.Membership">
+      <Item value="CreateUser`0" priority="0" />
+      <Item value="DeleteUser`0" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:@System.Configuration.ConfigurationManager">
+      <Item value="AppSettings" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:Ninject.Syntax.IBindingToSyntax`1">
+      <Item value="To`0" priority="5" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:Mild.MembershipProvider.SqlConnectionHolder">
+      <Item value="Connection" priority="1" />
+      <Item value="Close`0" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:System.Int32">
+      <Item value="ToString`0" priority="1" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:Ninject.StandardKernel">
+      <Item value="Inject`0" priority="1" />
+      <Item value="Bind`0" priority="2" />
+      <Item value="Get`0" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:Mild.MembershipProvider.ViewModels.CreateUserViewModel">
+      <Item value="Status" priority="1" />
+      <Item value="UserId" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:System.Data.SqlClient.SqlConnection">
+      <Item value="ConnectionString" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:Mild.MembershipProvider.SchemaVersion">
+      <Item value="Check`0" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:Ninject.Syntax.IBindingWhenInNamedWithOrOnSyntax`1">
+      <Item value="WithConstructorArgument`0" priority="2" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:Ninject.Syntax.IBindingWithOrOnSyntax`1">
+      <Item value="WithConstructorArgument`0" priority="2" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:@System.Web.Security.MembershipPasswordFormat">
+      <Item value="Clear" priority="0" />
+      <Item value="Hashed" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:Mild.MembershipProvider.Linq.ProviderDataContext">
+      <Item value="aspnet_SchemaVersions" priority="0" />
+      <Item value="aspnet_Users" priority="3" />
+      <Item value="aspnet_Memberships" priority="2" />
+      <Item value="SubmitChanges`0" priority="2" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:System.Data.Linq.Table`1">
+      <Item value="Where`1" priority="1" />
+      <Item value="Any`1" priority="3" />
+      <Item value="SingleOrDefault`1" priority="0" />
+      <Item value="InsertOnSubmit`0" priority="1" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:Mild.MembershipProvider.Linq.aspnet_SchemaVersion">
+      <Item value="Feature" priority="0" />
+      <Item value="CompatibleSchemaVersion" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:System.String">
+      <Item value="ToLower`0" priority="3" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:Mild.MembershipProvider.Linq.aspnet_User">
+      <Item value="LoweredUserName" priority="0" />
+      <Item value="ApplicationId" priority="0" />
+      <Item value="UserId" priority="3" />
+      <Item value="LastActivityDate" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:System.Nullable`1">
+      <Item value="HasValue" priority="3" />
+      <Item value="Value" priority="4" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:Mild.MembershipProvider.Linq.aspnet_Membership">
+      <Item value="UserId" priority="0" />
+      <Item value="ApplicationId" priority="0" />
+      <Item value="LoweredEmail" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:@System.Guid">
+      <Item value="NewGuid`0" priority="2" />
+    </ItemStatistics>
+  </CompletionStatisticsManager>
+  <RecentFiles>
+    <RecentFiles>
+      <File id="F82B37F7-156F-4C9B-81C0-56B746C5CE53/f:App.config" caret="353" fromTop="7" />
+      <File id="0A2581F6-8130-4819-87D3-C77D50924E78/f:packages.config" caret="0" fromTop="0" />
+      <File id="0A2581F6-8130-4819-87D3-C77D50924E78/f:SqlConnectionHolder.cs" caret="836" fromTop="19" />
+      <File id="0A2581F6-8130-4819-87D3-C77D50924E78/d:Helpers/f:SqlConnectionHelper.cs" caret="2187" fromTop="66" />
+      <File id="0A2581F6-8130-4819-87D3-C77D50924E78/d:Helpers/f:SqlMembershipProviderHelper.cs" caret="74" fromTop="3" />
+      <File id="F82B37F7-156F-4C9B-81C0-56B746C5CE53/f:UserTests.cs" caret="547" fromTop="16" />
+      <File id="0A2581F6-8130-4819-87D3-C77D50924E78/d:ViewModels/f:CreateUserViewModel.cs" caret="0" fromTop="0" />
+      <File id="0A2581F6-8130-4819-87D3-C77D50924E78/d:Helpers/f:SR.cs" caret="21011" fromTop="156" />
+      <File id="0A2581F6-8130-4819-87D3-C77D50924E78/d:Helpers/f:DataProviderHelper.cs" caret="5671" fromTop="25" />
+      <File id="0A2581F6-8130-4819-87D3-C77D50924E78/d:Helpers/f:SecUtil.cs" caret="3345" fromTop="19" />
+      <File id="0A2581F6-8130-4819-87D3-C77D50924E78/f:SQLMembershipProvider.cs" caret="26499" fromTop="7" />
+      <File id="0A2581F6-8130-4819-87D3-C77D50924E78/f:SQLRoleProvider.cs" caret="6626" fromTop="15" />
+      <File id="0A2581F6-8130-4819-87D3-C77D50924E78/f:IRoleDataProvidable.cs" caret="86" fromTop="2" />
+      <File id="0A2581F6-8130-4819-87D3-C77D50924E78/f:IMembershipDataProvidable.cs" caret="2953" fromTop="36" />
+      <File id="0A2581F6-8130-4819-87D3-C77D50924E78/f:SchemaVersion.cs" caret="962" fromTop="20" />
+      <File id="0A2581F6-8130-4819-87D3-C77D50924E78/f:IDataProvidable.cs" caret="231" fromTop="11" />
+      <File id="0A2581F6-8130-4819-87D3-C77D50924E78/d:Original/f:Data.cs" caret="1529" fromTop="48" />
+      <File id="0A2581F6-8130-4819-87D3-C77D50924E78/d:Original/f:RoleData.cs" caret="23225" fromTop="513" />
+      <File id="0A2581F6-8130-4819-87D3-C77D50924E78/f:ProviderNinjectModule.cs" caret="362" fromTop="11" />
+      <File id="0A2581F6-8130-4819-87D3-C77D50924E78/d:Linq/f:ProviderDataContext.dbml.layout" caret="885" fromTop="11" />
+      <File id="0A2581F6-8130-4819-87D3-C77D50924E78/d:Linq/f:ProviderDataContext.designer.cs" caret="4131" fromTop="23" />
+      <File id="0A2581F6-8130-4819-87D3-C77D50924E78/d:Linq/f:Data.cs" caret="522" fromTop="19" />
+      <File id="0A2581F6-8130-4819-87D3-C77D50924E78/d:Original/f:MembershipData.cs" caret="3120" fromTop="16" />
+      <File id="0A2581F6-8130-4819-87D3-C77D50924E78/d:Linq/f:MembershipData.cs" caret="3280" fromTop="13" />
+    </RecentFiles>
+    <RecentEdits>
+      <File id="0A2581F6-8130-4819-87D3-C77D50924E78/d:Linq/f:Data.cs" caret="1176" fromTop="10" />
+      <File id="0A2581F6-8130-4819-87D3-C77D50924E78/d:Linq/f:ProviderDataContext.designer.cs" caret="846" fromTop="25" />
+      <File id="0A2581F6-8130-4819-87D3-C77D50924E78/d:Linq/f:Data.cs" caret="710" fromTop="20" />
+      <File id="0A2581F6-8130-4819-87D3-C77D50924E78/d:Linq/f:Data.cs" caret="547" fromTop="10" />
+      <File id="0A2581F6-8130-4819-87D3-C77D50924E78/d:Linq/f:ProviderDataContext.designer.cs" caret="3545" fromTop="20" />
+      <File id="0A2581F6-8130-4819-87D3-C77D50924E78/d:Linq/f:ProviderDataContext.designer.cs" caret="3737" fromTop="26" />
+      <File id="0A2581F6-8130-4819-87D3-C77D50924E78/d:Linq/f:ProviderDataContext.designer.cs" caret="3857" fromTop="32" />
+      <File id="0A2581F6-8130-4819-87D3-C77D50924E78/d:Linq/f:ProviderDataContext.designer.cs" caret="3996" fromTop="38" />
+      <File id="0A2581F6-8130-4819-87D3-C77D50924E78/d:Linq/f:ProviderDataContext.designer.cs" caret="4174" fromTop="26" />
+      <File id="0A2581F6-8130-4819-87D3-C77D50924E78/d:Linq/f:MembershipData.cs" caret="4258" fromTop="26" />
+      <File id="0A2581F6-8130-4819-87D3-C77D50924E78/d:Linq/f:MembershipData.cs" caret="2242" fromTop="20" />
+      <File id="0A2581F6-8130-4819-87D3-C77D50924E78/d:Linq/f:MembershipData.cs" caret="4154" fromTop="13" />
+      <File id="0A2581F6-8130-4819-87D3-C77D50924E78/d:Linq/f:MembershipData.cs" caret="1393" fromTop="7" />
+      <File id="0A2581F6-8130-4819-87D3-C77D50924E78/d:Linq/f:MembershipData.cs" caret="4142" fromTop="35" />
+      <File id="0A2581F6-8130-4819-87D3-C77D50924E78/d:Linq/f:MembershipData.cs" caret="4421" fromTop="20" />
+      <File id="0A2581F6-8130-4819-87D3-C77D50924E78/d:Linq/f:MembershipData.cs" caret="4556" fromTop="24" />
+      <File id="0A2581F6-8130-4819-87D3-C77D50924E78/d:Linq/f:MembershipData.cs" caret="5610" fromTop="35" />
+      <File id="0A2581F6-8130-4819-87D3-C77D50924E78/d:Linq/f:MembershipData.cs" caret="4832" fromTop="12" />
+      <File id="0A2581F6-8130-4819-87D3-C77D50924E78/d:Linq/f:MembershipData.cs" caret="2242" fromTop="29" />
+      <File id="0A2581F6-8130-4819-87D3-C77D50924E78/d:Linq/f:MembershipData.cs" caret="2242" fromTop="28" />
+      <File id="0A2581F6-8130-4819-87D3-C77D50924E78/d:Linq/f:MembershipData.cs" caret="2069" fromTop="9" />
+      <File id="0A2581F6-8130-4819-87D3-C77D50924E78/d:Linq/f:MembershipData.cs" caret="1865" fromTop="15" />
+      <File id="0A2581F6-8130-4819-87D3-C77D50924E78/d:Linq/f:MembershipData.cs" caret="1504" fromTop="10" />
+      <File id="0A2581F6-8130-4819-87D3-C77D50924E78/d:Linq/f:MembershipData.cs" caret="2624" fromTop="11" />
+      <File id="0A2581F6-8130-4819-87D3-C77D50924E78/d:Linq/f:MembershipData.cs" caret="2945" fromTop="18" />
+      <File id="0A2581F6-8130-4819-87D3-C77D50924E78/d:Linq/f:MembershipData.cs" caret="2416" fromTop="10" />
+      <File id="0A2581F6-8130-4819-87D3-C77D50924E78/d:Linq/f:MembershipData.cs" caret="3239" fromTop="18" />
+      <File id="0A2581F6-8130-4819-87D3-C77D50924E78/d:Linq/f:MembershipData.cs" caret="5158" fromTop="20" />
+      <File id="0A2581F6-8130-4819-87D3-C77D50924E78/d:Linq/f:MembershipData.cs" caret="5827" fromTop="28" />
+      <File id="0A2581F6-8130-4819-87D3-C77D50924E78/d:Linq/f:MembershipData.cs" caret="4661" fromTop="21" />
+    </RecentEdits>
+  </RecentFiles>
+  <NAntValidationSettings>
+    <NAntPath value="" />
+  </NAntValidationSettings>
+  <UnitTestRunner>
+    <Providers />
+  </UnitTestRunner>
+  <UnitTestRunnerNUnit>
+    <NUnitInstallDir>C:\Program Files (x86)\NUnit 2.5.10\bin\net-2.0\</NUnitInstallDir>
+    <UseAddins>Never</UseAddins>
+  </UnitTestRunnerNUnit>
+</Configuration>

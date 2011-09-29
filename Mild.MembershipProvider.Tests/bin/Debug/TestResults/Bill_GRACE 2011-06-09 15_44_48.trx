@@ -1,0 +1,60 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<TestRun id="5a656c95-c081-4cdf-9c9c-1592b1551779" name="Bill@GRACE 2011-06-09 15:44:48" runUser="Grace\Bill" xmlns="http://microsoft.com/schemas/VisualStudio/TeamTest/2010">
+  <TestSettings name="Local" id="794290c2-ae02-4e6d-a100-ecbb7eb43665">
+    <Description>These are default test settings for a local test run.</Description>
+    <Deployment enabled="false" runDeploymentRoot="Bill_GRACE 2011-06-09 15_44_48" />
+    <Execution>
+      <TestTypeSpecific />
+      <AgentRule name="Execution Agents">
+      </AgentRule>
+    </Execution>
+  </TestSettings>
+  <Times creation="2011-06-09T15:44:48.8890392-04:00" queuing="2011-06-09T15:44:49.7640893-04:00" start="2011-06-09T15:44:50.1301102-04:00" finish="2011-06-09T15:47:12.1042307-04:00" />
+  <ResultSummary outcome="Failed">
+    <Counters total="1" executed="1" error="0" failed="1" timeout="0" aborted="0" inconclusive="0" passedButRunAborted="0" notRunnable="0" notExecuted="0" disconnected="0" warning="0" passed="0" completed="0" inProgress="0" pending="0" />
+  </ResultSummary>
+  <TestDefinitions>
+    <UnitTest name="CreateAndDeleteUser" storage="c:\users\bill\websites\mild.membershipprovider\mild.membershipprovider.tests\bin\debug\mild.membershipprovider.tests.dll" id="987614e1-0021-6492-bdf6-5d7b93dc51a4">
+      <Execution timeOut="1800000" id="5b37d66f-f218-4072-ba93-ee7b3dacc9de" />
+      <TestMethod codeBase="C:/Users/Bill/Websites/Mild.MembershipProvider/Mild.MembershipProvider.Tests/bin/Debug/Mild.MembershipProvider.Tests.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="Mild.MembershipProvider.Tests.UserTests, Mild.MembershipProvider.Tests, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="CreateAndDeleteUser" />
+    </UnitTest>
+  </TestDefinitions>
+  <TestLists>
+    <TestList name="Results Not in a List" id="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestList name="All Loaded Results" id="19431567-8539-422a-85d7-44ee4e166bda" />
+  </TestLists>
+  <TestEntries>
+    <TestEntry testId="987614e1-0021-6492-bdf6-5d7b93dc51a4" executionId="5b37d66f-f218-4072-ba93-ee7b3dacc9de" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+  </TestEntries>
+  <Results>
+    <UnitTestResult executionId="5b37d66f-f218-4072-ba93-ee7b3dacc9de" testId="987614e1-0021-6492-bdf6-5d7b93dc51a4" testName="CreateAndDeleteUser" computerName="GRACE" duration="00:02:21.6271095" startTime="2011-06-09T15:44:50.2651179-04:00" endTime="2011-06-09T15:47:11.9982246-04:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Failed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="5b37d66f-f218-4072-ba93-ee7b3dacc9de">
+      <Output>
+        <ErrorInfo>
+          <Message>Test method Mild.MembershipProvider.Tests.UserTests.CreateAndDeleteUser threw exception: 
+System.Reflection.TargetInvocationException: Exception has been thrown by the target of an invocation. ---&gt; System.InvalidOperationException: The ConnectionString property has not been initialized.</Message>
+          <StackTrace>    at System.Data.SqlClient.SqlConnection.PermissionDemand()
+   at System.Data.SqlClient.SqlConnectionFactory.PermissionDemand(DbConnection outerConnection)
+   at System.Data.ProviderBase.DbConnectionClosed.OpenConnection(DbConnection outerConnection, DbConnectionFactory connectionFactory)
+   at System.Data.SqlClient.SqlConnection.Open()
+   at Mild.MembershipProvider.SqlConnectionHolder.Open(HttpContext context, Boolean revertImpersonate) in C:\Users\Bill\Websites\Mild.MembershipProvider\Mild.MembershipProvider\SqlConnectionHolder.cs:line 39
+   at Mild.MembershipProvider.SqlConnectionHelper.GetConnection(String connectionString, Boolean revertImpersonation) in C:\Users\Bill\Websites\Mild.MembershipProvider\Mild.MembershipProvider\SqlConnectionHelper.cs:line 25
+   at Mild.MembershipProvider.SqlMembershipProvider..ctor() in C:\Users\Bill\Websites\Mild.MembershipProvider\Mild.MembershipProvider\SQLMembershipProvider.cs:line 42
+ --- End of inner exception stack trace ---
+    at System.RuntimeTypeHandle.CreateInstance(RuntimeType type, Boolean publicOnly, Boolean noCheck, Boolean&amp; canBeCached, RuntimeMethodHandleInternal&amp; ctor, Boolean&amp; bNeedSecurityCheck)
+   at System.RuntimeType.CreateInstanceSlow(Boolean publicOnly, Boolean skipCheckThis, Boolean fillCache)
+   at System.RuntimeType.CreateInstanceDefaultCtor(Boolean publicOnly, Boolean skipVisibilityChecks, Boolean skipCheckThis, Boolean fillCache)
+   at System.Activator.CreateInstance(Type type, Boolean nonPublic)
+   at System.Activator.CreateInstance(Type type)
+   at System.Web.Security.Membership.InitializeSettings(Boolean initializeGeneralSettings, RuntimeConfig appConfig, MembershipSection settings)
+   at System.Web.Security.Membership.Initialize()
+   at System.Web.Security.Membership.get_Provider()
+   at System.Web.Security.Membership.CreateUser(String username, String password, String email, String passwordQuestion, String passwordAnswer, Boolean isApproved, Object providerUserKey, MembershipCreateStatus&amp; status)
+   at System.Web.Security.Membership.CreateUser(String username, String password, String email, String passwordQuestion, String passwordAnswer, Boolean isApproved, MembershipCreateStatus&amp; status)
+   at System.Web.Security.Membership.CreateUser(String username, String password, String email)
+   at Mild.MembershipProvider.Tests.UserTests.CreateAndDeleteUser() in C:\Users\Bill\Websites\Mild.MembershipProvider\Mild.MembershipProvider.Tests\UserTests.cs:line 17
+</StackTrace>
+        </ErrorInfo>
+      </Output>
+    </UnitTestResult>
+  </Results>
+</TestRun>

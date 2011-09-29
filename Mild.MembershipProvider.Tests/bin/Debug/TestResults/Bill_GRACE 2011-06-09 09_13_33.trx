@@ -1,0 +1,52 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<TestRun id="1d12e09f-8bf6-41e9-803e-8ea71806f293" name="Bill@GRACE 2011-06-09 09:13:33" runUser="Grace\Bill" xmlns="http://microsoft.com/schemas/VisualStudio/TeamTest/2010">
+  <TestSettings name="Local" id="794290c2-ae02-4e6d-a100-ecbb7eb43665">
+    <Description>These are default test settings for a local test run.</Description>
+    <Deployment enabled="false" runDeploymentRoot="Bill_GRACE 2011-06-09 09_13_33" />
+    <Execution>
+      <TestTypeSpecific />
+      <AgentRule name="Execution Agents">
+      </AgentRule>
+    </Execution>
+  </TestSettings>
+  <Times creation="2011-06-09T09:13:33.9852310-04:00" queuing="2011-06-09T09:13:34.6802708-04:00" start="2011-06-09T09:13:35.6553266-04:00" finish="2011-06-09T09:16:25.3140305-04:00" />
+  <ResultSummary outcome="Failed">
+    <Counters total="1" executed="1" error="0" failed="1" timeout="0" aborted="0" inconclusive="0" passedButRunAborted="0" notRunnable="0" notExecuted="0" disconnected="0" warning="0" passed="0" completed="0" inProgress="0" pending="0" />
+  </ResultSummary>
+  <TestDefinitions>
+    <UnitTest name="CreateAndDeleteUser" storage="c:\users\bill\websites\mild.membershipprovider\mild.membershipprovider.tests\bin\debug\mild.membershipprovider.tests.dll" id="987614e1-0021-6492-bdf6-5d7b93dc51a4">
+      <Execution timeOut="1800000" id="e3534544-116b-4035-8edf-916beb25837e" />
+      <TestMethod codeBase="C:/Users/Bill/Websites/Mild.MembershipProvider/Mild.MembershipProvider.Tests/bin/Debug/Mild.MembershipProvider.Tests.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="Mild.MembershipProvider.Tests.UserTests, Mild.MembershipProvider.Tests, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="CreateAndDeleteUser" />
+    </UnitTest>
+  </TestDefinitions>
+  <TestLists>
+    <TestList name="Results Not in a List" id="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestList name="All Loaded Results" id="19431567-8539-422a-85d7-44ee4e166bda" />
+  </TestLists>
+  <TestEntries>
+    <TestEntry testId="987614e1-0021-6492-bdf6-5d7b93dc51a4" executionId="e3534544-116b-4035-8edf-916beb25837e" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+  </TestEntries>
+  <Results>
+    <UnitTestResult executionId="e3534544-116b-4035-8edf-916beb25837e" testId="987614e1-0021-6492-bdf6-5d7b93dc51a4" testName="CreateAndDeleteUser" computerName="GRACE" duration="00:02:48.6583819" startTime="2011-06-09T09:13:35.9243420-04:00" endTime="2011-06-09T09:16:24.7519983-04:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Failed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="e3534544-116b-4035-8edf-916beb25837e">
+      <Output>
+        <ErrorInfo>
+          <Message>Test method Mild.MembershipProvider.Tests.UserTests.CreateAndDeleteUser threw exception: 
+System.MissingMethodException: No parameterless constructor defined for this object.</Message>
+          <StackTrace>    at System.RuntimeTypeHandle.CreateInstance(RuntimeType type, Boolean publicOnly, Boolean noCheck, Boolean&amp; canBeCached, RuntimeMethodHandleInternal&amp; ctor, Boolean&amp; bNeedSecurityCheck)
+   at System.RuntimeType.CreateInstanceSlow(Boolean publicOnly, Boolean skipCheckThis, Boolean fillCache)
+   at System.RuntimeType.CreateInstanceDefaultCtor(Boolean publicOnly, Boolean skipVisibilityChecks, Boolean skipCheckThis, Boolean fillCache)
+   at System.Activator.CreateInstance(Type type, Boolean nonPublic)
+   at System.Activator.CreateInstance(Type type)
+   at System.Web.Security.Membership.InitializeSettings(Boolean initializeGeneralSettings, RuntimeConfig appConfig, MembershipSection settings)
+   at System.Web.Security.Membership.Initialize()
+   at System.Web.Security.Membership.get_Provider()
+   at System.Web.Security.Membership.CreateUser(String username, String password, String email, String passwordQuestion, String passwordAnswer, Boolean isApproved, Object providerUserKey, MembershipCreateStatus&amp; status)
+   at System.Web.Security.Membership.CreateUser(String username, String password, String email, String passwordQuestion, String passwordAnswer, Boolean isApproved, MembershipCreateStatus&amp; status)
+   at System.Web.Security.Membership.CreateUser(String username, String password, String email)
+   at Mild.MembershipProvider.Tests.UserTests.CreateAndDeleteUser() in C:\Users\Bill\Websites\Mild.MembershipProvider\Mild.MembershipProvider.Tests\UserTests.cs:line 17
+</StackTrace>
+        </ErrorInfo>
+      </Output>
+    </UnitTestResult>
+  </Results>
+</TestRun>

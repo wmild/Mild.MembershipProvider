@@ -1,0 +1,36 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 11.00
+# Visual Studio 2010
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Mild.MembershipProvider", "Mild.MembershipProvider\Mild.MembershipProvider.csproj", "{0A2581F6-8130-4819-87D3-C77D50924E78}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{58EEB70A-564D-4F73-86C8-F3DCB8E7BC28}"
+	ProjectSection(SolutionItems) = preProject
+		Local.testsettings = Local.testsettings
+		Mild.MembershipProvider.vsmdi = Mild.MembershipProvider.vsmdi
+		TraceAndTestImpact.testsettings = TraceAndTestImpact.testsettings
+	EndProjectSection
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Mild.MembershipProvider.Tests", "Mild.MembershipProvider.Tests\Mild.MembershipProvider.Tests.csproj", "{F82B37F7-156F-4C9B-81C0-56B746C5CE53}"
+EndProject
+Global
+	GlobalSection(TestCaseManagementSettings) = postSolution
+		CategoryFile = Mild.MembershipProvider.vsmdi
+	EndGlobalSection
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{0A2581F6-8130-4819-87D3-C77D50924E78}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{0A2581F6-8130-4819-87D3-C77D50924E78}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{0A2581F6-8130-4819-87D3-C77D50924E78}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{0A2581F6-8130-4819-87D3-C77D50924E78}.Release|Any CPU.Build.0 = Release|Any CPU
+		{F82B37F7-156F-4C9B-81C0-56B746C5CE53}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F82B37F7-156F-4C9B-81C0-56B746C5CE53}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F82B37F7-156F-4C9B-81C0-56B746C5CE53}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F82B37F7-156F-4C9B-81C0-56B746C5CE53}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal

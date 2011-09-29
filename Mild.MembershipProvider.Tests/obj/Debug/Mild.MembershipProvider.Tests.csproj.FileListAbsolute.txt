@@ -1,0 +1,11 @@
+C:\Users\Bill\Websites\Mild.MembershipProvider\Mild.MembershipProvider.Tests\bin\Debug\Mild.MembershipProvider.Tests.dll.config
+C:\Users\Bill\Websites\Mild.MembershipProvider\Mild.MembershipProvider.Tests\bin\Debug\Mild.MembershipProvider.Tests.dll
+C:\Users\Bill\Websites\Mild.MembershipProvider\Mild.MembershipProvider.Tests\bin\Debug\Mild.MembershipProvider.Tests.pdb
+C:\Users\Bill\Websites\Mild.MembershipProvider\Mild.MembershipProvider.Tests\bin\Debug\Mild.MembershipProvider.dll
+C:\Users\Bill\Websites\Mild.MembershipProvider\Mild.MembershipProvider.Tests\bin\Debug\Mild.MembershipProvider.pdb
+C:\Users\Bill\Websites\Mild.MembershipProvider\Mild.MembershipProvider.Tests\obj\Debug\ResolveAssemblyReference.cache
+C:\Users\Bill\Websites\Mild.MembershipProvider\Mild.MembershipProvider.Tests\obj\Debug\Mild.MembershipProvider.Tests.dll
+C:\Users\Bill\Websites\Mild.MembershipProvider\Mild.MembershipProvider.Tests\obj\Debug\Mild.MembershipProvider.Tests.pdb
+C:\Users\Bill\Websites\Mild.MembershipProvider\Mild.MembershipProvider.Tests\bin\Debug\Ninject.dll
+C:\Users\Bill\Websites\Mild.MembershipProvider\Mild.MembershipProvider.Tests\bin\Debug\Ninject.pdb
+C:\Users\Bill\Websites\Mild.MembershipProvider\Mild.MembershipProvider.Tests\bin\Debug\Ninject.xml
